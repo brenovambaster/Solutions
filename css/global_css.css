@@ -1,0 +1,139 @@
+/* CSS Global */
+
+.topo {
+    background-color: #13263a;
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+.email {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    height: auto;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.relative {
+    position: relative;
+}
+
+.logo img {
+    height: 90px;
+}
+
+.ap {
+    background-color: #0a94f0;
+    color: #ffa51f;
+    font-weight: bold;
+}
+
+.opc {
+    color: #ffa51f;
+    font-weight: bold;
+}
+
+.opc:hover {
+    background-color: #0a94f0;
+    color: #ffa51f;
+}
+
+.navegador {
+    margin-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.contato {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+}
+
+.diego {
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 235px;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.titulos {
+    font-size: 36px;
+}
+
+.diego>h2 {
+    margin-top: -25px;
+    font-size: 26px;
+    text-decoration: underline;
+}
+
+.diego>div>img {
+    width: 15px;
+    height: 15px;
+}
+
+.diego>span {
+    font-weight: bold;
+}
+
+.top100 {
+    top: 100px;
+}
+
+#wpp {
+    margin-bottom: 60px;
+}
+
+.formula {
+    position: absolute;
+    height: auto;
+    margin-top: 5%;
+}
+
+.back {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    border: 0px;
+}
+
+.back2 {
+    top: 700px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    border: 0px;
+}
+
+.fale {
+    width: 180px;
+    /* largura da imagem máscara */
+    height: 80px;
+    /* altura da imagem máscara */
+    top: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(imgs/fale-conosco.png) no-repeat;
+    /* imagem máscara */
+}
+
+.rodape {
+    position: relative;
+    margin-top: 30%;
+}
+
+#subir {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+}
