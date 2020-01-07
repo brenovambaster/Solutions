@@ -21,10 +21,10 @@
 											} ?> href="index.php"> Início</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link opc" href="index.php #sobre"> Sobre Nós </a>
+							<a class="nav-link opc" href="index.php#sobre"> Sobre Nós </a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link opc" href="index.php #servicos"> Serviços </a>
+							<a class="nav-link opc" href="index.php#servicos"> Serviços </a>
 						</li>
 						<li class="nav-item">
 							<a id="Contato" <?php if ($verifica['Contato'] == true) {
@@ -34,10 +34,10 @@
 											} ?> href="contato.php"> Contato </a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link opc" href="index.php #local"> Nossa localização</a>
+							<a class="nav-link opc" href="index.php#local"> Nossa localização</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link opc" href="index.php #parceiros"> Parceiros </a>
+							<a class="nav-link opc" href="index.php#parceiros"> Parceiros </a>
 						</li>
 
 					</ul>
