@@ -1,4 +1,4 @@
-<div class="container-fluid topo hg-auto">
+<div class="container-fluid topo2">
 	<div class="justify-content-between row">
 		<div class="logo bg-light rounded col-6 col-sm-4 col-md-4 col-lg-3 col-xl-2 h-100 ">
 			<a href="index.php"><img src="imgs/logo_sf.png" class="col-12 " alt="Solutions Energia"></a>

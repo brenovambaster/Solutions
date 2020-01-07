@@ -1,32 +1,7 @@
 /* CSS Global */
 
-.topo {
-    background-color: #13263a;
-    position: relative;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    width: 100%;
-}
 
-.email {
-    background-color: rgba(0, 0, 0, 0.5);
-    position: relative;
-    height: auto;
-    padding-bottom: 20px;
-    padding-left: 20px;
-}
-
-.logo {
-    margin-left: 10px;
-}
-
-.relative {
-    position: relative;
-}
-
-.logo img {
-    height: 90px;
-}
+/* A */
 
 .ap {
     background-color: #0a94f0;
@@ -34,27 +9,35 @@
     font-weight: bold;
 }
 
-.opc {
-    color: #ffa51f;
-    font-weight: bold;
+
+/* B */
+
+.back {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    border: 0px;
 }
 
-.opc:hover {
-    background-color: #0a94f0;
-    color: #ffa51f;
+.back2 {
+    top: 700px;
+    position: relative;
+    width: 100%;
+    height: auto;
+    border: 0px;
 }
 
-.navegador {
-    margin-right: 10px;
-    margin-top: auto;
-    margin-bottom: auto;
-}
+
+/* C */
 
 .contato {
     position: absolute;
     width: 500px;
     height: 500px;
 }
+
+
+/* D */
 
 .diego {
     background-color: rgba(0, 0, 0, 0.5);
@@ -64,10 +47,6 @@
     position: relative;
     padding-left: 25px;
     padding-right: 25px;
-}
-
-.titulos {
-    font-size: 36px;
 }
 
 .diego>h2 {
@@ -85,55 +64,136 @@
     font-weight: bold;
 }
 
+
+/* E */
+
+.email {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    height: auto;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+
+/* F */
+
+
+/* G */
+
+
+/* H */
+
+
+/* I */
+
+
+/* J */
+
+
+/* K */
+
+
+/* L */
+
+.logo {
+    margin-left: 10px;
+}
+
+.logo img {
+    height: 90px;
+}
+
+
+/* M */
+
+
+/* N */
+
+.navegador {
+    margin-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+/* O */
+
+.opc {
+    color: #ffa51f;
+    font-weight: bold;
+}
+
+.opc:hover {
+    background-color: #0a94f0;
+    color: #ffa51f;
+}
+
+
+/* P */
+
+
+/* Q */
+
+
+/* R */
+
+.relative {
+    position: relative;
+}
+
+.rodape {
+    position: absolute;
+    margin-top: 30%;
+    z-index: 0 !important;
+}
+
+
+/* S */
+
+
+/* T */
+
+.titulos {
+    font-size: 36px;
+}
+
 .top100 {
     top: 100px;
 }
 
-#wpp {
-    margin-bottom: 60px;
-}
-
-.formula {
-    position: absolute;
-    height: auto;
-    margin-top: 5%;
-}
-
-.back {
-    position: absolute;
+.topo2 {
+    background-color: #13263a;
+    position: fixed;
+    padding-bottom: 5px;
     width: 100%;
-    height: auto;
-    border: 0px;
+    z-index: 1000 !important;
 }
 
-.back2 {
-    top: 700px;
-    position: relative;
-    width: 100%;
-    height: auto;
-    border: 0px;
-}
 
-.fale {
-    width: 180px;
-    /* largura da imagem máscara */
-    height: 80px;
-    /* altura da imagem máscara */
-    top: 100px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: url(imgs/fale-conosco.png) no-repeat;
-    /* imagem máscara */
-}
+/* U */
 
-.rodape {
-    position: relative;
-    margin-top: 30%;
-}
+
+/* V */
+
+
+/* W */
+
+
+/* X */
+
+
+/* Y */
+
+
+/* Z */
 
 #subir {
     position: fixed;
     bottom: 100px;
     right: 20px;
+}
+
+#wpp {
+    margin-bottom: 60px;
 }

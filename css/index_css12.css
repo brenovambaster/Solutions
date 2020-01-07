@@ -1,3 +1,16 @@
+/* CSS Index */
+
+
+/* A */
+
+.animacao {
+    animation-name: move;
+    animation-duration: 1000ms;
+}
+
+
+/* P */
+
 .parte_one {
     background-image: url("../imgs/bg1.jpg");
     background-position: top center;
@@ -27,9 +40,9 @@
 
 .color-overlay-part1 {
     width: 100%;
-    height: 100%;
+    height: 75%;
     background: rgb(0, 0, 0);
-    opacity: .3;
+    opacity: 0.2;
     position: absolute;
     margin-top: 0px;
     margin-bottom: 100%;
@@ -37,9 +50,9 @@
 
 .color-overlay {
     width: 100%;
-    height: 110%;
+    height: 178%;
     background: rgb(0, 0, 0);
-    opacity: .3;
+    opacity: .5;
     position: absolute;
     margin-top: 5px;
     margin-bottom: 0px;
@@ -63,21 +76,23 @@ h1 {
     color: white;
 }
 
-.texto1 {
-    color: #FFFF!important;
-    text-align: center;
-    margin-top: 25%;
-    margin-bottom: 276px;
-}
 
-.animacao {
-    animation-name: move;
-    animation-duration: 1000ms;
-}
+/* R */
 
 .rodape {
     height: 500px;
     color: white;
+    background-color: rgb(0, 0, 0)!important;
+}
+
+
+/* T */
+
+.texto1 {
+    color: #FFFF!important;
+    text-align: center;
+    margin-top: 25%;
+    margin-bottom: 356px;
 }
 
 @keyframes move {
@@ -91,6 +106,6 @@ h1 {
     }
 }
 
-.rodape {
-    background-color: rgb(0, 0, 0)!important;
+.contato-parte3 {
+    height: 100%;
 }

@@ -25,6 +25,7 @@
 	$verifica['Contato'] = false;
 	include 'menu.php';
 	?>
+
 	<div class="color-overlay-part1"></div>
 	<section class="parte_one">
 		<div class="row">
@@ -58,65 +59,49 @@
 					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et metus tellus. Curabitur viverra urna at ex consectetur
 						sollicitudin. Donec posuere ornare aliquam. Vivamus sem elit, posuere in faucibus a, pretium ac purus.
 						Aliquam suscipit condimentum mauris sit amet tincidunt.
-					Suspendisse porta risus neque, id consequat est fermentum in. Morbi pretium turpis ut tincidunt interdum.</p>
+						Suspendisse porta risus neque, id consequat est fermentum in. Morbi pretium turpis ut tincidunt interdum.</p>
 					<p>It is a long established fact that a reader will be distracted by the readable content.É um facto estabelecido de
-					que um leitor é distraído pelo conteúdo legível de uma página quando analisa a sua mancha gráfica. </p>
+						que um leitor é distraído pelo conteúdo legível de uma página quando analisa a sua mancha gráfica. </p>
 					<p>Ao contrário da crença popular, o Lorem Ipsum não é simplesmente texto aleatório.
 						Tem raízes numa peça de literatura clássica em Latim, de 45 AC, tornando-o com mais de 2000 anos.
 						Richard McClintock, um professor de Latim no Colégio Hampden-Sydney, na Virgínia, procurou uma das palavras em
 						Latim mais obscuras (consectetur) numa passagem Lorem Ipsum, e atravessando as cidades do mundo na literatura clássica,
 						descobriu a sua origem. Lorem Ipsum vem das secções
-					1.10.32 e 1.10.33 do "de Finibus Bonorum et Malorum" (Os Extremos do Bem e do Mal), por Cícero, escrito a 45AC. </p>
+						1.10.32 e 1.10.33 do "de Finibus Bonorum et Malorum" (Os Extremos do Bem e do Mal), por Cícero, escrito a 45AC. </p>
 				</div>
 			</div>
 
 		</div>
 
 	</section>
-
-	<div class="color-overlay">
+	<div class="color-overlay responsive">
 	</div>
 	<section class="part-three" id="servicos">
 		<div class="classe">
 			<div class="serviços">
 				<div class="texto3 carrousel-caption rounded row ">
-					<div class="p-2">
-						<h1 class="text-center">Conheça Nossos Serviços</h1><br>
-						<h5 class="text-justify ">
-							Nós criamos soluções de engenharia inovadoras em uma variedade de setores.
-							Nossos serviços avançados de engenharia, incluindo Teste de sistema elétrico, Usina de produção de energia
-							e Design de sistema elétrico, são cuidadosamente projetados para fornecer soluções e resultados eficientes
-							e sustentáveis. Saiba mais sobre nossos serviços aqui.
-						</h5>
-					</div>
-				</div>
-			</div>
-		</div>
 
-		<!--  
-		<div class="serviços">
-			<div class="texto3 carrousel-caption rounded row ">
-				<div class="p-2">
 					<h1 class="text-center">Conheça Nossos Serviços</h1><br>
-					<h5 class="text-justify ">
+					<h4 class="text-justify ">
 						Nós criamos soluções de engenharia inovadoras em uma variedade de setores.
 						Nossos serviços avançados de engenharia, incluindo Teste de sistema elétrico, Usina de produção de energia
 						e Design de sistema elétrico, são cuidadosamente projetados para fornecer soluções e resultados eficientes
 						e sustentáveis. Saiba mais sobre nossos serviços aqui.
-					</h5>
+					</h4>
+
 				</div>
 			</div>
 		</div>
-	-->
+	</section>
+	<section id="local">
 
-</section>
-<section id="local">
+		<?php
 
-
-	<?php
 		include 'rodape.php'; //inclui o rodapé
 		?>
+
 	</section>
+
 	<a href="#" id="subir">
 		<button type="button" class="btn btn-secondary" id="voltarTopo">
 			<!-- botão de voltar ao topo -->
