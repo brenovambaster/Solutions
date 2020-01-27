@@ -8,7 +8,7 @@
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 					<a class="navbar-brand" href="#">
 						<img src="imgs/menu.png" alt="Menu Solutions">
-					</a><a class="navbar-brand" href="#"> <b>Menu</b> </a>
+					</a><a class="navbar-brand" href="#"> <b class="text-primary">Menu</b> </a>
 				</button>
 				<div class="collapse navbar-collapse justify-content-right hovermouse " id="collapsibleNavbar">
 					<!-- Lista de itens do navbar -->

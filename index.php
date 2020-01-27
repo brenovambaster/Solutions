@@ -26,13 +26,13 @@
 	include 'menu.php';
 	?>
 
-	<div class="color-overlay-part1"></div>
+
 	<section class="parte_one">
-		<div class="row">
+		<div class="row descer_title">
 			<div class="col-md-6 offset-md-3">
 				<div class=" texto1 animacao rounded text-center">
 					<b>
-						<h2>Inovando Para o Futuro</h2><br>
+						<h2 class="">Inovando Para o Futuro</h2><br>
 						<h1> BEM-VINDO <br> À SOLUTIONS </h1>
 					</b>
 				</div>
@@ -49,6 +49,10 @@
 				</div>
 
 			</div>
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="imgs/MyVideo_1.mp4"></iframe>
+			</div>
+
 
 			<div class="row">
 				<div class=" p-2 text-justify">
@@ -74,10 +78,60 @@
 		</div>
 
 	</section>
-	<div class="color-overlay responsive">
-	</div>
+	<div class="color-overlay responsive"></div>
 	<section class="part-three" id="servicos">
-		<div class="classe">
+		<div class="container classe rounded">
+			<div class="text-center">
+				<h2>Confira nossos serviços</h2>
+				<div class="row">
+					<div class="text-justify">
+						<h2>
+							Nós criamos soluções de engenharia inovadoras em uma variedade de setores.
+							Nossos serviços avançados de engenharia, incluindo Teste de sistema elétrico, Usina de produção de energia
+							e Design de sistema elétrico, são cuidadosamente projetados para fornecer soluções e resultados eficientes
+							e sustentáveis. Saiba mais sobre nossos serviços aqui.
+						</h2>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="text-dark container card-group">
+			<div class="">
+				<div class="mr-1 col card float-left" style="min-width: 13rem; max-width: 20rem; height:28rem;">
+					<img class="card-img-top img-fluid" src="imgs/foto2.png" alt="Imagem de capa do card">
+					<div class="card-body">
+						<h5 class="card-title">Título do card</h5>
+						<p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+						<a href="#" class="btn btn-primary">Visitar</a>
+					</div>
+				</div>
+			</div>
+			<div class="">
+				<div class="card col mt-1 mr-1 float-left card" style="min-width: 13rem; max-width: 20rem; height:28rem;">
+					<img class="card-img-top img-fluid" src="imgs/foto3.png" alt="Imagem de capa do card">
+					<div class="card-body">
+						<h5 class="card-title">Título do card</h5>
+						<p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+						<a href="#" class="btn btn-primary">Visitar</a>
+					</div>
+				</div>
+			</div>
+			<div class="">
+				<div class="card mt-1 mr-1 col card" style="min-width: 13rem; max-width: 20rem; height:28rem;">
+					<img class="card-img-top img-fluid" src="imgs/img5.jpg" alt="Imagem de capa do card">
+					<div class="card-body">
+						<h5 class="card-title">Título do card</h5>
+						<p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card. Exemplo simples de como pode fiacar o site</p>
+						<a href="#" class="btn btn-primary mt-4">Visitar</a>
+					</div>
+				</div>
+			</div>
+
+
+
+		</div>
+		<!--	<div class="container classe">
 			<div class="serviços">
 				<div class="texto3 carrousel-caption rounded row ">
 
@@ -92,16 +146,15 @@
 				</div>
 			</div>
 		</div>
+-->
 	</section>
 	<section id="local">
 
 		<?php
-
 		include 'rodape.php'; //inclui o rodapé
 		?>
 
 	</section>
-
 	<a href="#" id="subir">
 		<button type="button" class="btn btn-secondary" id="voltarTopo">
 			<!-- botão de voltar ao topo -->

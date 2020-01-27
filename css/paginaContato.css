@@ -32,3 +32,8 @@ p,
 b {
     color: black!important;
 }
+
+#butao {
+    margin-left: 50%;
+    margin-right: 50%;
+}

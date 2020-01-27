@@ -36,7 +36,7 @@
 					<form method="POST" action="processa.php" class="text-white">
 						<div class="form-group col-sm-5 col-lg-7">
 							<label for="exampleFormControlInput1">Nome</label>
-							<input type="text" name="nome" class="form-control" id="exampleFormControlInput1" placeholder="Seu nome">
+							<input type="name" name="nome" class="form-control" id="exampleFormControlInput1" placeholder="Seu nome">
 						</div>
 						<div class="form-group col-sm-5 col-lg-7">
 							<label for="exampleFormControlInput1">Endereço de email</label>
@@ -44,7 +44,7 @@
 						</div>
 						<div class="form-group col-sm-5 col-lg-7">
 							<label for="exampleFormControlInput1">Telefone</label>
-							<input type="text" name="fone" class="form-control" id="exampleFormControlInput1" placeholder="(33)988853527">
+							<input type="tex" name="fone" placeholder="(XX) 9 2345-4042" class="form-control" id="exampleFormControlInput1">
 						</div>
 
 						<div class="form-group col-sm-5 col-lg-7">
@@ -52,35 +52,40 @@
 							<input type="text" name="Cidade" class="form-control" id="exampleFormControlInput1" placeholder="Sua cidade">
 						</div>
 
-						<div class="form-group col-sm-5 col-lg-6">
+						<div class="form-group col-sm-5 col-lg-7">
 							<label for="exampleFormControlTextarea1">Mensagem</label>
-							<textarea class="form-control" name="mensagem" id="exampleFormControlTextarea1" rows="4"></textarea>
+							<textarea class="form-control" name="mensagem" id="exampleFormControlTextarea1" rows="5"></textarea>
 						</div>
-						<button type="submit" class="btn btn-primary">Enviar</button>
+						<div class=" col-sm-5 col-md-6 offset-lg-5">
+							<button type="submit" class=" text-center col-md-3  btn btn-primary">Enviar</button>
+						</div>
 
 					</form>
+
+
+
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<section class="parte2">
-		<div class="row">
+		<div class="row responsive">
 			<div class="col-3 letras"></div> <!-- corrigir alinhamento   -->
 			<div class="autor">
 				<div class="card mb-2" style="max-width: 800px; min-height:450px;">
 					<div class="row no-gutters">
 						<div class="col-md-4">
-							<img src="imgs/anonimo.jpg" class="card-img" alt="...">
+							<img src="imgs/jack.jpg" class="card-img" alt="...">
 						</div>
 						<div class="col-md-8">
 							<div class="card-body">
 								<h5 class="card-title"><b> Diretor Comercial</b></h5>
 								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 								<p class="card-text"><small class="text-muted">Diego Pereira Martins</small></p>
-								<p>   <img src="imgs/whatsapp.png" alt="email" height="20px" width="20px"> (33) 9 88853527
+								<p> <img src="imgs/whatsapp.png" alt="email" height="20px" width="20px"> <a href="https://api.whatsapp.com/send?phone=5533988853527&text=Ol%C3%A1!%20Tenho%20interesse%20em%20seus%20servi%C3%A7os">(33) 9 88853527</a>
 								</p>
-								<p> <img src="imgs/email.png" alt="email" height="20px" width="20px"> contato.solutionsenergia@gmail.com</p>
+								<p> <img src="imgs/email.png" alt="email" height="20px" width="20px"> <a href="mailto:contato.solutionsenergia@gmail.com">contato.solutionsenergia@gmail.com </a></p>
 							</div>
 						</div>
 					</div>
